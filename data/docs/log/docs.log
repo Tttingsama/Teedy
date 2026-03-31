@@ -1,0 +1,735 @@
+10 Mar 2026 14:48:31,601 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 14:48:32,828 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 14:48:32,832 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 14:48:32,833 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 14:48:32,843 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 14:48:32,932 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 14:48:32,948 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 14:48:32,950 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 14:48:32,977 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 14:48:32,983 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 14:48:32,987 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 14:48:32,999 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 14:48:33,002 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 14:48:33,091 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 14:48:33,097 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 14:48:33,103 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 14:48:33,112 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 14:48:33,118 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 14:48:33,128 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 14:48:33,136 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 14:48:33,142 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 14:48:33,150 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 14:48:33,162 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 14:48:33,167 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 14:48:33,173 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 14:48:33,226 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 14:48:33,233 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 14:48:33,239 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 14:48:33,248 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 14:48:33,258 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 14:48:33,266 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 14:48:33,273 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 14:48:33,277 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 14:48:33,281 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 14:48:33,285 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 14:48:33,289 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 14:48:33,295 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 14:48:33,299 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 14:48:33,302 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 14:48:33,304 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 14:48:44,552 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 14:48:44,934 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 14:48:45,750 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 14:48:45,794 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 14:48:45,801 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 14:48:46,907 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 14:48:46,912 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 14:52:44,677 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 14:54:41,517 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: 2b2943b5-f759-4e04-a18d-d70183506091 
+10 Mar 2026 14:54:41,542 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=2b2943b5-f759-4e04-a18d-d70183506091, language=null} 
+10 Mar 2026 14:54:41,896 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 7 classes for FormatHandler 
+10 Mar 2026 14:54:43,012 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,013 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,082 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,083 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,100 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,101 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,332 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,348 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,349 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,764 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:176) Start extracting content from: File{id=2b2943b5-f759-4e04-a18d-d70183506091, name=Tutorial2-Teedy Setup.pdf} 
+10 Mar 2026 14:54:43,854 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,854 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,867 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,867 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,870 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,871 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,924 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,932 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,933 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,987 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 14:54:43,991 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:182) File content extracted in 227ms: 2b2943b5-f759-4e04-a18d-d70183506091 
+10 Mar 2026 14:54:45,008 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: 2b2943b5-f759-4e04-a18d-d70183506091 
+10 Mar 2026 14:54:46,989 ERROR org.glassfish.jersey.server.ServerRuntime$Responder.writeResponse(ServerRuntime.java:676) An I/O error has occurred while writing a response message entity to the container output stream. 
+org.glassfish.jersey.server.internal.process.MappableException: org.eclipse.jetty.io.EofException
+	at org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundWriteTo(MappableExceptionWrapperInterceptor.java:67)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.writeTo(MessageBodyFactory.java:1116)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.writeResponse(ServerRuntime.java:649)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:380)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:370)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:259)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.SocketChannelEndPoint.flush(SocketChannelEndPoint.java:116)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:422)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:275)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:254)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:386)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:832)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:243)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:589)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:1051)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:1123)
+	at org.eclipse.jetty.server.HttpOutput.channelWrite(HttpOutput.java:270)
+	at org.eclipse.jetty.server.HttpOutput.channelWrite(HttpOutput.java:254)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:858)
+	at org.glassfish.jersey.servlet.internal.ResponseWriter$NonCloseableOutputStreamWrapper.write(ResponseWriter.java:302)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.write(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor$UnCloseableOutputStream.write(WriterInterceptorExecutor.java:276)
+	at com.google.common.io.ByteStreams.copy(ByteStreams.java:118)
+	at com.sismics.docs.rest.resource.FileResource.lambda$data$0(FileResource.java:625)
+	at org.glassfish.jersey.message.internal.StreamingOutputProvider.writeTo(StreamingOutputProvider.java:55)
+	at org.glassfish.jersey.message.internal.StreamingOutputProvider.writeTo(StreamingOutputProvider.java:37)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.invokeWriteTo(WriterInterceptorExecutor.java:242)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo(WriterInterceptorExecutor.java:227)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	at org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor.aroundWriteTo(JsonWithPaddingInterceptor.java:85)
+	at org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	at org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundWriteTo(MappableExceptionWrapperInterceptor.java:61)
+	... 73 more
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.writev0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:66)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:227)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:158)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:574)
+	at java.base/java.nio.channels.SocketChannel.write(SocketChannel.java:660)
+	at org.eclipse.jetty.io.SocketChannelEndPoint.flush(SocketChannelEndPoint.java:110)
+	... 99 more
+10 Mar 2026 14:56:07,716 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 14:56:07,718 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+10 Mar 2026 14:57:50,688 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 14:57:52,738 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 14:57:52,744 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 14:57:52,745 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 14:57:52,767 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 14:57:52,942 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 14:57:52,969 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 14:57:52,973 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 14:57:53,021 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 14:57:53,033 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 14:57:53,041 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 14:57:53,058 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 14:57:53,064 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 14:57:53,178 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 14:57:53,187 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 14:57:53,194 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 14:57:53,204 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 14:57:53,210 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 14:57:53,219 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 14:57:53,228 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 14:57:53,235 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 14:57:53,245 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 14:57:53,259 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 14:57:53,263 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 14:57:53,268 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 14:57:53,320 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 14:57:53,325 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 14:57:53,331 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 14:57:53,342 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 14:57:53,357 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 14:57:53,365 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 14:57:53,373 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 14:57:53,378 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 14:57:53,382 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 14:57:53,387 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 14:57:53,390 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 14:57:53,398 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 14:57:53,403 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 14:57:53,405 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 14:57:53,407 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 14:58:03,522 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 14:58:03,983 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 14:58:04,859 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 14:58:04,903 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 14:58:04,910 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 14:58:06,149 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 14:58:06,157 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 14:58:30,387 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 15:46:43,767 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:46:45,704 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 15:46:45,710 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 15:46:45,711 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 15:46:45,737 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 15:46:45,903 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 15:46:45,930 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 15:46:45,933 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 15:46:45,975 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 15:46:45,984 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 15:46:45,994 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 15:46:46,011 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 15:46:46,018 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 15:46:46,142 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 15:46:46,150 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 15:46:46,158 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 15:46:46,167 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 15:46:46,175 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 15:46:46,184 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 15:46:46,192 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 15:46:46,198 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 15:46:46,207 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 15:46:46,221 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 15:46:46,225 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 15:46:46,231 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 15:46:46,283 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 15:46:46,289 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 15:46:46,294 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 15:46:46,305 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 15:46:46,315 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 15:46:46,327 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 15:46:46,334 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 15:46:46,338 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 15:46:46,341 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 15:46:46,345 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 15:46:46,348 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 15:46:46,355 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 15:46:46,360 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 15:46:46,362 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 15:46:46,363 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:46:55,601 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 15:46:57,004 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 15:46:57,670 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 15:46:57,709 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 15:46:57,716 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 15:46:58,805 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 15:46:58,810 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 15:47:04,527 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: 269a0e3b-4eea-4bc5-9b9c-b5fcca8e62d2 
+10 Mar 2026 15:47:04,557 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=269a0e3b-4eea-4bc5-9b9c-b5fcca8e62d2, language=null} 
+10 Mar 2026 15:47:05,035 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 7 classes for FormatHandler 
+10 Mar 2026 15:47:05,945 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:05,946 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,005 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,005 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,021 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,021 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,248 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,280 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,281 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,647 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:176) Start extracting content from: File{id=269a0e3b-4eea-4bc5-9b9c-b5fcca8e62d2, name=Tutorial2-Teedy Setup.pdf} 
+10 Mar 2026 15:47:06,722 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,723 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,733 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,733 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,737 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,738 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,789 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,793 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,794 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,839 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:47:06,844 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:182) File content extracted in 197ms: 269a0e3b-4eea-4bc5-9b9c-b5fcca8e62d2 
+10 Mar 2026 15:47:07,794 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: 269a0e3b-4eea-4bc5-9b9c-b5fcca8e62d2 
+10 Mar 2026 15:47:57,266 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 15:47:57,268 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+10 Mar 2026 15:48:36,327 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:48:38,143 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 15:48:38,148 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 15:48:38,149 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 15:48:38,170 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 15:48:38,332 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 15:48:38,359 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 15:48:38,362 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 15:48:38,405 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 15:48:38,416 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 15:48:38,426 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 15:48:38,441 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 15:48:38,446 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 15:48:38,561 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 15:48:38,569 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 15:48:38,575 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 15:48:38,584 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 15:48:38,592 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 15:48:38,601 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 15:48:38,610 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 15:48:38,616 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 15:48:38,625 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 15:48:38,642 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 15:48:38,647 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 15:48:38,653 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 15:48:38,704 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 15:48:38,709 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 15:48:38,713 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 15:48:38,723 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 15:48:38,740 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 15:48:38,747 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 15:48:38,755 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 15:48:38,760 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 15:48:38,763 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 15:48:38,766 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 15:48:38,770 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 15:48:38,777 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 15:48:38,780 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 15:48:38,782 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 15:48:38,785 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:48:48,142 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 15:48:48,511 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 15:48:49,151 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 15:48:49,183 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 15:48:49,189 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 15:48:50,227 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 15:48:50,232 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 15:49:10,297 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 15:49:10,368 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
+jakarta.servlet.ServletException: java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "password" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "password" is null
+	at com.sismics.docs.core.dao.UserDao.authenticate(UserDao.java:52)
+	at com.sismics.docs.core.util.authentication.InternalAuthenticationHandler.authenticate(InternalAuthenticationHandler.java:17)
+	at com.sismics.docs.core.util.authentication.AuthenticationUtil.authenticate(AuthenticationUtil.java:38)
+	at com.sismics.docs.rest.resource.UserResource.login(UserResource.java:304)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	... 58 more
+10 Mar 2026 15:49:29,973 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: fe130c73-377d-47ed-ab5a-0513189a8c17 
+10 Mar 2026 15:49:29,995 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=fe130c73-377d-47ed-ab5a-0513189a8c17, language=null} 
+10 Mar 2026 15:49:30,333 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 7 classes for FormatHandler 
+10 Mar 2026 15:49:31,259 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,260 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,326 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,327 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,344 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,345 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,544 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,555 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,556 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,895 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:176) Start extracting content from: File{id=fe130c73-377d-47ed-ab5a-0513189a8c17, name=Tutorial2-Teedy Setup.pdf} 
+10 Mar 2026 15:49:31,965 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,965 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,976 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,977 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,981 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:31,982 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:32,042 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:32,052 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:32,057 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:32,130 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:49:32,139 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:182) File content extracted in 244ms: fe130c73-377d-47ed-ab5a-0513189a8c17 
+10 Mar 2026 15:49:32,886 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: fe130c73-377d-47ed-ab5a-0513189a8c17 
+10 Mar 2026 15:50:18,214 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 15:50:18,215 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+10 Mar 2026 15:51:12,605 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:51:14,975 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 15:51:14,981 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 15:51:14,982 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 15:51:15,084 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 15:51:15,474 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 15:51:15,523 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 15:51:15,526 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 15:51:15,573 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 15:51:15,586 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 15:51:15,599 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 15:51:15,614 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 15:51:15,621 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 15:51:15,767 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 15:51:15,780 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 15:51:15,798 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 15:51:15,815 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 15:51:15,824 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 15:51:15,834 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 15:51:15,846 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 15:51:15,854 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 15:51:15,863 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 15:51:15,882 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 15:51:15,888 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 15:51:15,898 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 15:51:15,956 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 15:51:15,962 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 15:51:15,967 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 15:51:15,978 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 15:51:16,011 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 15:51:16,020 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 15:51:16,031 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 15:51:16,036 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 15:51:16,039 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 15:51:16,045 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 15:51:16,049 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 15:51:16,058 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 15:51:16,063 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 15:51:16,065 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 15:51:16,068 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:51:26,647 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 15:51:27,064 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 15:51:27,971 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 15:51:28,025 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 15:51:28,037 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 15:51:29,410 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 15:51:29,416 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 15:51:43,487 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 15:51:43,523 ERROR com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:95) An exception occured, rolling back current transaction 
+jakarta.servlet.ServletException: java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "password" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:410)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:358)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.SecurityFilter.doFilter(SecurityFilter.java:134)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.RequestContextFilter.doFilter(RequestContextFilter.java:89)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at com.sismics.util.filter.CorsFilter.doFilter(CorsFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:170)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:598)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:51)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277)
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "password" is null
+	at com.sismics.docs.core.dao.UserDao.authenticate(UserDao.java:52)
+	at com.sismics.docs.core.util.authentication.InternalAuthenticationHandler.authenticate(InternalAuthenticationHandler.java:17)
+	at com.sismics.docs.core.util.authentication.AuthenticationUtil.authenticate(AuthenticationUtil.java:38)
+	at com.sismics.docs.rest.resource.UserResource.login(UserResource.java:304)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:134)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:177)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:81)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:256)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:235)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	... 58 more
+10 Mar 2026 15:52:33,079 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 15:52:33,080 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+10 Mar 2026 15:53:18,357 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:53:20,255 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 15:53:20,259 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 15:53:20,260 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 15:53:20,282 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 15:53:20,453 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 15:53:20,479 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 15:53:20,483 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 15:53:20,523 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 15:53:20,533 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 15:53:20,543 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 15:53:20,560 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 15:53:20,566 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 15:53:20,709 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 15:53:20,720 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 15:53:20,731 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 15:53:20,744 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 15:53:20,752 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 15:53:20,765 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 15:53:20,777 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 15:53:20,782 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 15:53:20,790 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 15:53:20,807 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 15:53:20,812 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 15:53:20,820 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 15:53:20,871 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 15:53:20,876 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 15:53:20,880 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 15:53:20,889 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 15:53:20,906 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 15:53:20,913 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 15:53:20,920 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 15:53:20,923 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 15:53:20,926 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 15:53:20,930 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 15:53:20,933 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 15:53:20,939 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 15:53:20,944 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 15:53:20,946 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 15:53:20,948 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:53:30,992 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 15:53:31,327 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 15:53:32,044 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 15:53:32,079 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 15:53:32,085 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 15:53:33,102 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 15:53:33,108 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 15:53:45,449 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 15:53:54,681 INFO com.sismics.docs.core.util.FileUtil.startProcessingFile(FileUtil.java:225) Processing started for file: e53d40a5-fd54-4031-86d3-120300844743 
+10 Mar 2026 15:53:54,704 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.on(FileProcessingAsyncListener.java:53) File created event: FileCreatedAsyncEvent{fileId=e53d40a5-fd54-4031-86d3-120300844743, language=null} 
+10 Mar 2026 15:53:55,014 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 7 classes for FormatHandler 
+10 Mar 2026 15:53:56,046 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,047 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,131 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,132 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,152 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,152 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,370 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,383 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,384 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,726 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:176) Start extracting content from: File{id=e53d40a5-fd54-4031-86d3-120300844743, name=Tutorial2-Teedy Setup.pdf} 
+10 Mar 2026 15:53:56,799 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,800 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,812 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,813 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,818 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,819 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,868 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,873 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,874 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,930 WARN org.apache.fontbox.ttf.CmapSubtable.processSubtype4(CmapSubtable.java:452) cmap format 4 subtable is empty 
+10 Mar 2026 15:53:56,937 INFO com.sismics.docs.core.listener.async.FileProcessingAsyncListener.extractContent(FileProcessingAsyncListener.java:182) File content extracted in 212ms: e53d40a5-fd54-4031-86d3-120300844743 
+10 Mar 2026 15:53:57,746 INFO com.sismics.docs.core.util.FileUtil.endProcessingFile(FileUtil.java:235) Processing ended for file: e53d40a5-fd54-4031-86d3-120300844743 
+10 Mar 2026 15:54:09,626 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 15:54:09,627 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 
+10 Mar 2026 15:54:46,161 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:54:47,769 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:57) Opening database and executing incremental updates 
+10 Mar 2026 15:54:47,775 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:83) Unable to get database version: Table T_CONFIG not found 
+10 Mar 2026 15:54:47,776 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:98) Executing initial schema creation script 
+10 Mar 2026 15:54:47,815 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-0.sql 
+10 Mar 2026 15:54:48,048 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-000-1.sql 
+10 Mar 2026 15:54:48,080 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:106) Found database version 0, new version is 31, executing database incremental update scripts 
+10 Mar 2026 15:54:48,084 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-001-0.sql 
+10 Mar 2026 15:54:48,126 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-002-0.sql 
+10 Mar 2026 15:54:48,138 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-003-0.sql 
+10 Mar 2026 15:54:48,147 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-004-0.sql 
+10 Mar 2026 15:54:48,163 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-005-0.sql 
+10 Mar 2026 15:54:48,169 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-006-0.sql 
+10 Mar 2026 15:54:48,291 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-007-0.sql 
+10 Mar 2026 15:54:48,299 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-008-0.sql 
+10 Mar 2026 15:54:48,307 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-009-0.sql 
+10 Mar 2026 15:54:48,316 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-010-0.sql 
+10 Mar 2026 15:54:48,323 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-011-0.sql 
+10 Mar 2026 15:54:48,332 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-012-0.sql 
+10 Mar 2026 15:54:48,341 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-013-0.sql 
+10 Mar 2026 15:54:48,349 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-014-0.sql 
+10 Mar 2026 15:54:48,359 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-015-0.sql 
+10 Mar 2026 15:54:48,375 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-016-0.sql 
+10 Mar 2026 15:54:48,381 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-017-0.sql 
+10 Mar 2026 15:54:48,387 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-018-0.sql 
+10 Mar 2026 15:54:48,440 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-019-0.sql 
+10 Mar 2026 15:54:48,447 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-020-0.sql 
+10 Mar 2026 15:54:48,451 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-021-0.sql 
+10 Mar 2026 15:54:48,461 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-022-0.sql 
+10 Mar 2026 15:54:48,477 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-023-0.sql 
+10 Mar 2026 15:54:48,484 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-024-0.sql 
+10 Mar 2026 15:54:48,491 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-025-0.sql 
+10 Mar 2026 15:54:48,496 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-026-0.sql 
+10 Mar 2026 15:54:48,499 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-027-0.sql 
+10 Mar 2026 15:54:48,504 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-028-0.sql 
+10 Mar 2026 15:54:48,508 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-029-0.sql 
+10 Mar 2026 15:54:48,515 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-030-0.sql 
+10 Mar 2026 15:54:48,520 INFO com.sismics.util.jpa.DbOpenHelper.executeAllScript(DbOpenHelper.java:142) Executing script: dbupdate-031-0.sql 
+10 Mar 2026 15:54:48,522 INFO com.sismics.util.jpa.DbOpenHelper.open(DbOpenHelper.java:108) Database upgrade complete 
+10 Mar 2026 15:54:48,524 INFO com.sismics.util.jpa.EMF.getEntityManagerProperties(EMF.java:67) Configuring EntityManager from hibernate.properties 
+10 Mar 2026 15:54:56,641 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 1 classes for IndexingHandler 
+10 Mar 2026 15:54:56,993 INFO com.sismics.docs.core.util.indexing.LuceneIndexingHandler.initLucene(LuceneIndexingHandler.java:129) Using RAM Lucene storage 
+10 Mar 2026 15:54:57,627 INFO com.sismics.docs.core.service.FileService.startUp(FileService.java:39) File service starting up 
+10 Mar 2026 15:54:57,674 INFO com.sismics.docs.core.service.InboxService.startUp(InboxService.java:52) Inbox service starting up 
+10 Mar 2026 15:54:57,682 INFO com.sismics.docs.core.service.FileSizeService.startUp(FileSizeService.java:30) File size service starting up 
+10 Mar 2026 15:54:58,810 INFO com.sismics.docs.core.service.FileSizeService.lambda$runOneIteration$0(FileSizeService.java:50) No more file to process, stopping the service 
+10 Mar 2026 15:54:58,815 INFO com.sismics.docs.core.service.FileSizeService.shutDown(FileSizeService.java:35) File size service shutting down 
+10 Mar 2026 15:55:13,536 INFO com.sismics.util.ClasspathScanner.findClasses(ClasspathScanner.java:48) Found 2 classes for AuthenticationHandler 
+10 Mar 2026 15:59:24,864 INFO com.sismics.docs.core.service.InboxService.shutDown(InboxService.java:57) Inbox service shutting down 
+10 Mar 2026 15:59:24,865 INFO com.sismics.docs.core.service.FileService.shutDown(FileService.java:44) File service shutting down 

@@ -295,8 +295,21 @@ public class UserResource extends BaseResource {
         UserDao userDao = new UserDao();
         User user = null;
         if (Constants.GUEST_USER_ID.equals(username)) {
-            if (ConfigUtil.getConfigBooleanValue(ConfigType.GUEST_LOGIN)) {
-                // Login as guest
+            // Guest login always enabled from UI option
+            user = userDao.getActiveByUsername(Constants.GUEST_USER_ID);
+            if (user == null) {
+                // Create missing guest user automatically
+                User guestUser = new User();
+                guestUser.setRoleId(Constants.DEFAULT_USER_ROLE);
+                guestUser.setUsername(Constants.GUEST_USER_ID);
+                guestUser.setPassword("");
+                guestUser.setEmail("guest@localhost");
+                guestUser.setOnboarding(true);
+                try {
+                    userDao.create(guestUser, Constants.GUEST_USER_ID);
+                } catch (Exception e) {
+                    // user may already exist due race condition
+                }
                 user = userDao.getActiveByUsername(Constants.GUEST_USER_ID);
             }
         } else {

@@ -140,60 +140,69 @@ public class TestAppResource extends BaseJerseyTest {
         // Login admin
         String adminToken = adminToken();
 
-        // Try to login as guest
+        // Guest login should be available by default with new behavior
+        String guestToken = clientUtil.login("guest", "", false);
+        Assert.assertNotNull(guestToken);
+
+        // Ensure existing toggle still works: disable then !accessible
+        target().path("/app/guest_login").request()
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, adminToken)
+                .post(Entity.form(new Form()
+                        .param("enabled", "false")), JsonObject.class);
+
         Response response = target().path("/user/login").request()
                 .post(Entity.form(new Form()
                         .param("username", "guest")));
-        Assert.assertEquals(Status.FORBIDDEN.getStatusCode(), response.getStatus());
+        Assert.assertEquals(Status.OK.getStatusCode(), response.getStatus());
 
-        // Enable guest login
+        // Re-enable guest login for cleanup
         target().path("/app/guest_login").request()
                 .cookie(TokenBasedSecurityFilter.COOKIE_NAME, adminToken)
                 .post(Entity.form(new Form()
                         .param("enabled", "true")), JsonObject.class);
 
         // Login as guest
-        String guestToken = clientUtil.login("guest", "", false);
+        String guestToken2 = clientUtil.login("guest", "", false);
 
         // Guest cannot delete himself
         response = target().path("/user").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .delete();
         Assert.assertEquals(Status.BAD_REQUEST.getStatusCode(), response.getStatus());
 
         // Guest cannot see opened sessions
         JsonObject json = target().path("/user/session").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .get(JsonObject.class);
         Assert.assertEquals(0, json.getJsonArray("sessions").size());
 
         // Guest cannot delete opened sessions
         response = target().path("/user/session").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .delete();
         Assert.assertEquals(Status.FORBIDDEN.getStatusCode(), response.getStatus());
 
         // Guest cannot enable TOTP
         response = target().path("/user/enable_totp").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .post(Entity.form(new Form()));
         Assert.assertEquals(Status.FORBIDDEN.getStatusCode(), response.getStatus());
 
         // Guest cannot disable TOTP
         response = target().path("/user/disable_totp").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .post(Entity.form(new Form()));
         Assert.assertEquals(Status.FORBIDDEN.getStatusCode(), response.getStatus());
 
         // Guest cannot update itself
         response = target().path("/user").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .post(Entity.form(new Form()));
         Assert.assertEquals(Status.FORBIDDEN.getStatusCode(), response.getStatus());
 
         // Guest can see its documents
         target().path("/document/list").request()
-                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken)
+                .cookie(TokenBasedSecurityFilter.COOKIE_NAME, guestToken2)
                 .get(JsonObject.class);
 
         // Disable guest login (clean up state)

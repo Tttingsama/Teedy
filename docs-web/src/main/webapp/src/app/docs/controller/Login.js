@@ -11,7 +11,7 @@ angular.module('docs').controller('Login', function(Restangular, $scope, $rootSc
     $rootScope.app = data;
   });
 
-  // Login as guest
+  // Login as guest / visiting as guest
   $scope.loginAsGuest = function() {
     $scope.user = {
       username: 'guest',

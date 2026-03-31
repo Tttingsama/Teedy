@@ -84,7 +84,7 @@ public class AppResource extends BaseResource {
         ResourceBundle configBundle = ConfigUtil.getConfigBundle();
         String currentVersion = configBundle.getString("api.current_version");
         String minVersion = configBundle.getString("api.min_version");
-        Boolean guestLogin = ConfigUtil.getConfigBooleanValue(ConfigType.GUEST_LOGIN);
+        Boolean guestLogin = ConfigUtil.getConfigBooleanValue(ConfigType.GUEST_LOGIN, true); // 默认允许游客登录
         Boolean ocrEnabled = ConfigUtil.getConfigBooleanValue(ConfigType.OCR_ENABLED, true);
         String defaultLanguage = ConfigUtil.getConfigStringValue(ConfigType.DEFAULT_LANGUAGE);
         UserDao userDao = new UserDao();
