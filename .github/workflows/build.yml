@@ -23,7 +23,7 @@ jobs:
       - name: Install test dependencies
         run: |
           sudo apt-get update
-          sudo apt-get -y -q --no-install-recommends install ffmpeg me
+          sudo apt-get -y -q --no-install-recommends install ffmpeg mencoder
       
       - name: Build with Maven
         run: mvn --batch-mode -Pprod clean install
