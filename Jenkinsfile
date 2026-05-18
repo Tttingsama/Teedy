@@ -30,7 +30,6 @@ pipeline {
 
     post {
         always {
-            // 归档构建产物和测试报告
             archiveArtifacts artifacts: '**/target/site/**/*.*', fingerprint: true
             archiveArtifacts artifacts: '**/target/**/*.jar', fingerprint: true
             archiveArtifacts artifacts: '**/target/**/*.war', fingerprint: true
