@@ -21,7 +21,11 @@ pipeline {
             steps { sh 'mvn javadoc:javadoc' }
         }
         stage('Site') {
-            steps { sh 'mvn site' }
+            steps { 
+                sh 'mvn site site:stage' 
+                sh 'cp -r target/staging/* target/site/ || true'
+                sh 'touch target/site/index.html'
+            }
         }
         stage('Package') {
             steps { sh 'mvn package -DskipTests' }
