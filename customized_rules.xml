@@ -13,33 +13,19 @@
     </description>
     
     <!-- Lines of code (LoC) -->
-    <rule ref="category/java/design.xml/ExcessiveClassLength">
-        <property name="maxLines" value="1500"/>
-    </rule>
-    <rule ref="category/java/design.xml/ExcessiveMethodLength">
-        <property name="maxLines" value="200"/>
-    </rule>
+    <rule ref="category/java/design.xml/ExcessiveClassLength" properties="maxLines=1500"/>
+    <rule ref="category/java/design.xml/ExcessiveMethodLength" properties="maxLines=200"/>
     
     <!-- Cyclomatic Complexity (CC) - increased thresholds to reduce false positives -->
-    <rule ref="category/java/design.xml/CyclomaticComplexity">
-        <property name="minimum" value="25"/>
-    </rule>
+    <rule ref="category/java/design.xml/CyclomaticComplexity" properties="minimum=25"/>
     
     <!-- Weighted Methods per Class (WMC) -->
-    <rule ref="category/java/design.xml/ExcessivePublicCount">
-        <property name="max" value="50"/>
-    </rule>
+    <rule ref="category/java/design.xml/ExcessivePublicCount" properties="max=50"/>
     
     <!-- Coupling Between Objects (CBO) -->
-    <rule ref="category/java/design.xml/ExcessiveImports">
-        <property name="maxImports" value="50"/>
-    </rule>
-    <rule ref="category/java/design.xml/TooManyFields">
-        <property name="maxFields" value="50"/>
-    </rule>
+    <rule ref="category/java/design.xml/ExcessiveImports" properties="maxImports=50"/>
+    <rule ref="category/java/design.xml/TooManyFields" properties="maxFields=50"/>
     
     <!-- Lack of Cohesion in Methods (LCOM) -->
-    <rule ref="category/java/design.xml/TooManyMethods">
-        <property name="maxMethods" value="50"/>
-    </rule>
+    <rule ref="category/java/design.xml/TooManyMethods" properties="maxMethods=50"/>
 </ruleset>
