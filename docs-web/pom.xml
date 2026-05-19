@@ -13,6 +13,15 @@
   <artifactId>docs-web</artifactId>
   <packaging>war</packaging>
   <name>Docs Web</name>
+  <description>Web应用模块</description>
+  
+  <!-- 配置站点部署，确保模块间链接正常 -->
+  <distributionManagement>
+    <site>
+      <id>website</id>
+      <url>file://d:/github/Teedy/docs-web/target/site</url>
+    </site>
+  </distributionManagement>
 
   <dependencies>
     <!-- Dependencies to Docs -->
@@ -143,7 +152,66 @@
         <directory>src/main/resources</directory>
       </resource>
     </resources>
+    
+    <!-- Maven Site Plugin 配置 -->
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.12.1</version>
+        <configuration>
+          <reportPlugins>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-project-info-reports-plugin</artifactId>
+              <version>3.4.2</version>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-pmd-plugin</artifactId>
+              <version>3.17.0</version>
+              <configuration>
+                <rulesets>
+                  <ruleset>../customized_rules.xml</ruleset>
+                </rulesets>
+              </configuration>
+              <reportSets>
+                <reportSet>
+                  <reports>
+                    <report>pmd</report>
+                    <report>cpd</report>
+                  </reports>
+                </reportSet>
+              </reportSets>
+            </plugin>
+          </reportPlugins>
+          <!-- 配置站点生成，确保模块间链接正确 -->
+          <siteDirectory>${project.basedir}/target/site</siteDirectory>
+          <outputDirectory>${project.basedir}/target/site</outputDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.4.2</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.17.0</version>
+        <configuration>
+          <rulesets>
+            <ruleset>../customized_rules.xml</ruleset>
+          </rulesets>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <profiles>
     <!-- Development profile (active by default) -->

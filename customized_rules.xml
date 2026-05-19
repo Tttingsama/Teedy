@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ruleset name="Customized Rules" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    
+    <description>
+        Customized PMD ruleset for Teedy project, including the following metrics:
+        - Lines of code (LoC)
+        - Cyclomatic Complexity (CC)
+        - Weighted Methods per Class (WMC)
+        - Coupling Between Objects (CBO)
+        - Lack of Cohesion in Methods (LCOM)
+    </description>
+    
+    <!-- Lines of code (LoC) -->
+    <rule ref="category/java/design.xml/ExcessiveClassLength"/>
+    <rule ref="category/java/design.xml/ExcessiveMethodLength"/>
+    
+    <!-- Cyclomatic Complexity (CC) -->
+    <rule ref="category/java/design.xml/CyclomaticComplexity"/>
+    
+    <!-- Weighted Methods per Class (WMC) -->
+    <rule ref="category/java/design.xml/ExcessivePublicCount"/>
+    
+    <!-- Coupling Between Objects (CBO) -->
+    <rule ref="category/java/design.xml/ExcessiveImports"/>
+    <rule ref="category/java/design.xml/TooManyFields"/>
+    
+    <!-- Lack of Cohesion in Methods (LCOM) -->
+    <rule ref="category/java/design.xml/TooManyMethods"/>
+</ruleset>
